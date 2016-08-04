@@ -1,0 +1,276 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:2:1-76:12
+	package
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:12:5-67
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.paypal.android.sdk\paypal-one-touch\2.3.6\AndroidManifest.xml:11:5-67
+MERGED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:13:5-67
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:12:5-67
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.paypal.android.sdk\paypal-one-touch\2.3.6\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:7:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:11:22-79
+permission#com.example.gcm.permission.C2D_MESSAGE
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:13:5-15:47
+	android:protectionLevel
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:14:9-62
+uses-permission#com.example.gcm.permission.C2D_MESSAGE
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:17:22-75
+application
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:19:5-74:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:47:5-55:19
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:14:5-18:19
+MERGED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:15:5-20:19
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:14:5-18:19
+	android:label
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:22:9-41
+	android:supportsRtl
+		ADDED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:16:9-35
+	tools:ignore
+		ADDED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:17:9-39
+	android:allowBackup
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:21:9-43
+	android:theme
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:23:9-40
+activity#com.example.dell.mypay.MainActivity
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:25:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:30:27-74
+provider#com.example.dell.mypay.MyPayProvider
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:34:9-36:60
+	android:authorities
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:36:13-57
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:35:13-42
+service#com.example.dell.mypay.GPSService
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:38:9-42:19
+	android:enabled
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:40:13-35
+	android:exported
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:39:13-39
+activity#com.example.dell.mypay.ScanActivity
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:44:9-47:20
+	android:label
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:46:13-45
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:45:13-41
+service#com.example.dell.mypay.ShopService
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:49:9-52:19
+	android:exported
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:50:13-40
+service#com.example.dell.mypay.ItemService
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:53:9-56:19
+	android:exported
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:54:13-40
+activity#com.example.dell.mypay.CartActivity
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:58:9-61:20
+	android:label
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:60:13-45
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:59:13-41
+activity#com.example.dell.mypay.PayPalActivity
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:62:9-65:20
+	android:label
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:64:13-45
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:63:13-43
+activity#com.example.dell.mypay.TransactionActivity
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:66:9-69:20
+	android:label
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:68:13-45
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:67:13-48
+activity#com.example.dell.mypay.InvoiceAckActivity
+ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:70:9-73:20
+	android:label
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:72:13-45
+	android:name
+		ADDED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml:71:13-47
+uses-sdk
+INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:design:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.paypal.android.sdk\paypal-one-touch\2.3.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\core\2.3.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\core\2.3.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments:card-form:2.3.1] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments\card-form\2.3.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.paypal.android.sdk\paypal-one-touch\2.3.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\core\2.3.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\core\2.3.6\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vivekmani TSK\Desktop\MyPay\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:27:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:30:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:35:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:38:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:40:5-42:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:41:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:43:5-45:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:44:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:48:9-54:63
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:50:13-45
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:51:13-56
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:52:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:54:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:53:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.0.2\AndroidManifest.xml:49:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:11:5-79
+MERGED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:12:5-79
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:11:22-76
+activity#com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity
+ADDED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:15:9-103
+MERGED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:18:9-103
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:15:9-103
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:15:19-100
+service#com.braintreepayments.api.internal.AnalyticsIntentService
+ADDED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:17:9-93
+MERGED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:17:9-93
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\braintree\2.3.6\AndroidManifest.xml:17:18-90
+activity#com.braintreepayments.api.BraintreePaymentActivity
+ADDED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:19:9-87
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:2.3.6] C:\Users\Vivekmani TSK\Desktop\MyPay\app\build\intermediates\exploded-aar\com.braintreepayments.api\drop-in\2.3.6\AndroidManifest.xml:19:19-84

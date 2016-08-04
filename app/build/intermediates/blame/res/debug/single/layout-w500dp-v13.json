@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\layout-w500dp-v13\\bt_card_form_fields.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\exploded-aar\\com.braintreepayments\\card-form\\2.3.1\\res\\layout-w500dp-v13\\bt_card_form_fields.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\layout-w500dp-v13\\bt_list_submit_button.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\exploded-aar\\com.braintreepayments.api\\drop-in\\2.3.6\\res\\layout-w500dp-v13\\bt_list_submit_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\layout-w500dp-v13\\bt_form_submit_button.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\exploded-aar\\com.braintreepayments.api\\drop-in\\2.3.6\\res\\layout-w500dp-v13\\bt_form_submit_button.xml"
+    }
+]

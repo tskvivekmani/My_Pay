@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="paypal-one-touch-2.3.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.paypal.android.sdk/paypal-one-touch/2.3.6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.paypal.android.sdk/paypal-one-touch/2.3.6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.paypal.android.sdk/paypal-one-touch/2.3.6/15039e6db1328c9e2113dfd388d14640572a8cc8/paypal-one-touch-2.3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

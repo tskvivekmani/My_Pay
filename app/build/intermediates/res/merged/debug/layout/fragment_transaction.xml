@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.dell.mypay.TransactionActivity$PlaceholderFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/failure_image"
+            android:src="@drawable/error"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/success_image"
+            android:src="@drawable/tick"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Your payment was cancelled Please try again or pay in cash"
+            android:textSize="25sp"
+            android:id="@+id/cancel_caption"
+            android:gravity="center"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/success_receipt_layout">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/receipt_caption"
+                android:textSize="25sp"
+                android:text="Do you want a receipt?"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/receipt_caption"
+                android:id="@+id/email_image"
+                android:src="@drawable/email"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:hint="Email address"
+                android:layout_toRightOf="@+id/email_image"
+                android:layout_toEndOf="@+id/email_image"
+                android:layout_below="@+id/receipt_caption"
+                android:id="@+id/email_edittext"
+                android:inputType="textEmailAddress" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/email_image"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/sms_image"
+                android:src="@drawable/sms"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sms_edittext"
+                android:hint="Mobile no. with country code"
+                android:layout_below="@+id/email_edittext"
+                android:layout_toEndOf="@+id/sms_image"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/sms_image"
+                android:inputType="number"
+                />
+
+            </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dismiss_button"
+            android:background="@color/material_deep_teal_500"
+            android:textColor="#ffffff"
+            android:text="Try Again"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/receipt_success_button">
+            <Button
+                android:layout_width="0dp"
+                android:layout_margin="5sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:id="@+id/skip_button"
+                android:background="@color/material_deep_teal_500"
+                android:textColor="#ffffff"
+                android:text="Skip"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_margin="5sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:id="@+id/send_button"
+                android:background="@color/material_deep_teal_500"
+                android:textColor="#ffffff"
+                android:text="Send Receipt"/>
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+</LinearLayout>

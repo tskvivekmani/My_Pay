@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.dell.mypay.CartActivity$CartFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:id="@+id/cart_list"
+        android:background="@drawable/border_ui"
+        android:divider="#068FC4"
+        android:dividerHeight="2dp"></ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="Total:"
+            android:textSize="@dimen/abc_text_size_title_material"
+            android:gravity="left"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/total_price"
+            android:gravity="end"
+            android:text="567"
+            android:layout_gravity="center"
+            android:textSize="@dimen/abc_text_size_title_material"/>
+        </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/paypal_payment"
+        android:layout_weight="0.125"
+        android:background="@color/material_deep_teal_500"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:text="Continue Checkout!"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"/>
+
+
+</LinearLayout>

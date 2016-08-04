@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/hint_foreground_material_dark"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="2sp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:id="@+id/shop_name_textView"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="2sp"
+        android:layout_weight="0.5"
+        android:id="@+id/shop_address_textView"/>
+
+</LinearLayout>

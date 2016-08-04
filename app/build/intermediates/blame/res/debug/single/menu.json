@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_transaction.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\src\\main\\res\\menu\\menu_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_pay_pal.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\src\\main\\res\\menu\\menu_pay_pal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_shop_menu.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\src\\main\\res\\menu\\fragment_shop_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cart.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\src\\main\\res\\menu\\menu_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_scan.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\src\\main\\res\\menu\\menu_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_invoice_ack.xml",
+        "source": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\src\\main\\res\\menu\\menu_invoice_ack.xml"
+    }
+]

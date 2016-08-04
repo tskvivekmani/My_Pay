@@ -1,0 +1,49 @@
+[
+    {
+        "outputFile": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\res\\merged\\debug\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 234
+                },
+                "from": {
+                    "file": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\exploded-aar\\com.braintreepayments\\card-form\\2.3.1\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 239,
+                    "endLine": 9,
+                    "endColumn": 12,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "C:\\Users\\Vivekmani TSK\\Desktop\\MyPay\\app\\build\\intermediates\\exploded-aar\\com.braintreepayments.api\\drop-in\\2.3.6\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 245
+                    }
+                }
+            }
+        ]
+    }
+]

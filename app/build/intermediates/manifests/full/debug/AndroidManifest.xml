@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.mypay"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.example.gcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+
+    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+ <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dell.mypay.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.example.dell.mypay.MyPayProvider"
+            android:authorities="com.example.dell.mypay" />
+
+        <service
+            android:name="com.example.dell.mypay.GPSService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name="com.example.dell.mypay.ScanActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service
+            android:name="com.example.dell.mypay.ShopService"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="com.example.dell.mypay.ItemService"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name="com.example.dell.mypay.CartActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.dell.mypay.PayPalActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.dell.mypay.TransactionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.dell.mypay.InvoiceAckActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity" />
+
+        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+
+        <activity android:name="com.braintreepayments.api.BraintreePaymentActivity" />
+    </application>
+
+</manifest>
